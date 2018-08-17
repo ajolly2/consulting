@@ -50,18 +50,36 @@
     #section1{
       font-size: 18px;
       padding-top: 10px;
-      position: relative;
-      width: 50%;
+      position: absolute;
+      max-height: 100%;
+      max-width: 100%;
       color: #0000FF;
     }
     
-    #section2{
-            background-image: url('https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-
+    #box-container{
+      height: 500px;
+      width: 1000px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    #box1{
+      width: 50%;
+      height: 50%;
+      background-color; red;
+    }
+    
+    #box2{
+      width: 50%;
+      height: 50%;
+      background-image: url('https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+      background-size: cover;
     }
     
     h1{
       background-color: white;
+      text-align: center;
     }
     
     h2{
@@ -74,32 +92,21 @@
 
 <body>
 <div id="main">
-  <div id="main-header">
+  <div id="header">
       <nav id="navbar">
         <div id="logo-div">
           <img id="img" src="https://vectr.com/ajolly2/e1TsoT2LTe.svg?width=66.667&height=66.667&select=e1TsoT2LTepage0" alt="logo">
         </div>
       </nav>
-  </div>
-  <div id="columns">
-      <div id="section1">
-        <p>
-        <h1>
-        The only effective wellness program is the one employees participate in. 
-        </h1>
-        </p> 
-        <p>
-        <h2>
-          Decades of research prove that employees will participate in your wellness program <u>only</u> if 
-        it's <font style="color:#ff7f7f;">simple</font> and <font style="color:#57ff6a;">fun</font>.
-        </h2>
-        </p>
-      </div>
-        
-        <div id="section2">
-          
-        </div>
-  </div>
+  
+  <div id="box-container">
+    <div id="box1">
+    asasdfasfasfasdf
+    </div>
+    <div id="box2">
+    asdasfasdfasfdasfdasf
+    </div>
+  
 </div>
 
 </body
