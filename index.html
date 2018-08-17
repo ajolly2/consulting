@@ -18,12 +18,13 @@
       margin: auto;
       background-color: white;
       box-shadow: 50px 50px black;
+      background-size: cover;   
+
     }
     
     #navbar{
       padding: 20px;
       margin: 10px 20px 20px 10px;
-      font-family: 'PT Sans', sans-serif;
       font-size: 50px;
     }
     
@@ -38,12 +39,34 @@
       background-color:#f0f0f5;
     }
     
-    #section{
-      font-size: 20px;
+    #columns{
+      display: flex;
+       font-family: 'Titillium Web', sans-serif;
+       margin: 20px;
+       
+       
+    }
+    
+    #section1{
+      font-size: 18px;
       padding-top: 10px;
       position: relative;
-      width: 50%
-      color: 
+      width: 50%;
+      color: #0000FF;
+    }
+    
+    #section2{
+            background-image: url('https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+
+    }
+    
+    h1{
+      background-color: white;
+    }
+    
+    h2{
+      font-size: 20px;
+      color: #4c4cff;
     }
   </style>
 
@@ -52,22 +75,30 @@
 <body>
 <div id="main">
   <div id="main-header">
-    <header>
       <nav id="navbar">
-      <div id="logo-div">
-      <img id="img" src="https://vectr.com/ajolly2/e1TsoT2LTe.svg?width=66.667&height=66.667&select=e1TsoT2LTepage0" alt="logo">
+        <div id="logo-div">
+          <img id="img" src="https://vectr.com/ajolly2/e1TsoT2LTe.svg?width=66.667&height=66.667&select=e1TsoT2LTepage0" alt="logo">
         </div>
-        <section id="section">
-        <p><h1>
-        The only effective wellness program is the one employees participate in.
-        </h1></p> 
-        <p>
-          
-        </p>
-        </section>
-        
       </nav>
-    </header>
+  </div>
+  <div id="columns">
+      <div id="section1">
+        <p>
+        <h1>
+        The only effective wellness program is the one employees participate in. 
+        </h1>
+        </p> 
+        <p>
+        <h2>
+          Decades of research prove that employees will participate in your wellness program <u>only</u> if 
+        it's <font style="color:#ff7f7f;">simple</font> and <font style="color:#57ff6a;">fun</font>.
+        </h2>
+        </p>
+      </div>
+        
+        <div id="section2">
+          
+        </div>
   </div>
 </div>
 
